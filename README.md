@@ -134,3 +134,12 @@ If you use Lag-Llama in your research, please cite the original paper:
 ## License
 
 Released under the  MIT License. See [LICENSE](https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-/blob/main/LICENSE).
+
+## Acknowledgements
+
+We would like to express our sincere gratitude to the following:
+
+* The authors and maintainers of the **Lag-Llama** model and the [time-series-foundation-models/lag-llama](https://github.com/time-series-foundation-models/lag-llama) repository for developing and sharing this powerful foundation model for time series forecasting and its pre-trained weights.
+* **GISTDA (Geo-Informatics and Space Technology Development Agency, Thailand)** for providing access to the historical PM2.5 data used in this project via their platform: [https://pm25.gistda.or.th/download](https://pm25.gistda.or.th/download).
+* **(Source of BTC Data, Yahoo Finance)** for the historical Bitcoin price data used in the financial forecasting notebook. (Please specify the actual source if known).
+* The developers of key open-source libraries such as **GluonTS**, (https://github.com/awslabs/gluonts) that formed the basis for the implementation and experiments.
