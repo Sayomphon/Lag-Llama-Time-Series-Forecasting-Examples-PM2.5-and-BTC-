@@ -82,8 +82,8 @@ The performance (CRPS) comparison between Zero-Shot and Fine-tuned models for di
 
 1.  **Clone this repository:**
     ```bash
-    git clone [<your-repository-url>](https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-.git)
-    cd <your-repository-name>
+    git clone (https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-.git)
+    cd Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-
     ```
 2.  **Data Files:** Ensure the necessary data files (`Khlong_Toei_PM2.5.csv`, `BTC_price.csv`) are placed in the root directory of this repository, or update the `csv_path` variable within the notebooks accordingly.
 3.  **Dependencies:** The notebooks handle cloning the Lag-Llama repository and installing its dependencies (`requirements.txt`) automatically when run. Ensure you have `git` installed. Internet access is required for downloading the repository and the pre-trained model checkpoint via `huggingface-cli`.
