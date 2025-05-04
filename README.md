@@ -18,6 +18,26 @@ The notebooks cover the entire workflow, including environment setup, data loadi
 * `/Pictures/` 🖼️: Folder containing result visualization images.
 * `README.md`: This file.
 
+## Foundational Concepts 💡
+
+To better understand the context of this project, here are some foundational concepts related to time series forecasting and the models used:
+
+### Time Series Basics 🕰️
+
+* **Lag:** A past value in the time series. For example, the lag 1 value for today is the value from yesterday. Models often use multiple lags as input features.
+* **Context Length:** The number of past time steps (lags) that the forecasting model looks at to make a prediction for the future. A longer context length allows the model to potentially capture longer-term patterns.
+* **Prediction Length (or Horizon):** The number of future time steps the model is asked to forecast.
+* **Seasonality:** Patterns that repeat over a fixed period of time (e.g., daily, weekly, yearly). PM2.5 data might exhibit seasonality related to weather patterns or human activity.
+* **Trend:** The long-term direction of the data (e.g., increasing, decreasing, or stable over time).
+* **Volatility:** The degree of variation or fluctuation in a time series. Financial data like BTC prices are known for high volatility.
+* **Probabilistic Forecasting:** Instead of predicting a single future value (point forecast), this approach predicts a probability distribution for future values. This provides a measure of uncertainty around the forecast, often represented by prediction intervals. Lag-Llama performs probabilistic forecasting.
+
+### Foundation Models for Time Series 🤖
+
+* **Concept:** Foundation models are large-scale models pre-trained on vast amounts of broad data (in this case, diverse time series data). They learn general patterns and representations from this data.
+* **Adaptability:** The key idea is that these pre-trained models can then be adapted to specific downstream tasks (like forecasting PM2.5 or BTC prices) with minimal task-specific training (**fine-tuning**) or even used directly without any further training (**zero-shot**).
+* **Lag-Llama as an Example:** Lag-Llama 🦙 applies this concept by using a Transformer-based architecture (specifically, Llama) adapted to take sequences of lagged values from time series as input. It aims to provide strong forecasting capabilities across various domains without needing extensive model retraining for each new dataset.
+
 ## About the Model: Lag-Llama 🦙
 
 Lag-Llama is a foundation model for time series forecasting pre-trained on a large corpus of time series data. It leverages a Llama architecture adapted for time series inputs (lags) to perform probabilistic forecasting.
