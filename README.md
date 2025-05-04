@@ -97,7 +97,6 @@ Below are sample visualizations comparing the actual data with the Zero-Shot and
 <p align="center">
   <img src="https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-/blob/main/Pictures/BTC%20128.png?raw=true" alt="BTC Price Forecast Example (Context Length = 128)">
 </p>
-***
 
 ## Setup & Installation
 
