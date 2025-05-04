@@ -151,7 +151,7 @@ Below are sample visualizations comparing the actual data with the Zero-Shot and
 
 1.  **Clone this repository:**
     ```bash
-    git clone [https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-.git](https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-.git)
+    git clone https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-.git
     cd Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-
     ```
 2.  **Data Files:** Ensure the necessary data files (`Khlong_Toei_PM2.5.csv`, `BTC_price.csv`) are placed in the root directory of this repository, or update the `csv_path` variable within the notebooks accordingly. The sample result images are located in the `/Pictures/` directory.
