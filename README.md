@@ -130,3 +130,7 @@ If you use Lag-Llama in your research, please cite the original paper:
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
+
+## License
+
+Released under the  MIT License. See [LICENSE](https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-/blob/main/LICENSE).
