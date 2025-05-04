@@ -9,15 +9,6 @@ This repository contains Jupyter notebooks demonstrating the application of the 
 
 The notebooks cover the entire workflow, including environment setup, data loading and preprocessing, performing both **zero-shot forecasting** ✨ and **fine-tuning** 🔧 the Lag-Llama model, evaluating the results using the Continuous Ranked Probability Score (CRPS), and visualizing the forecasts 📊.
 
-## Repository Contents 📂
-
-* `Lag_Llama_PM2_5_Forecasting_for_Khlong_Toei_Station.ipynb` 📄: Jupyter notebook for PM2.5 forecasting.
-* `Lag-Llama_BTC_close_price_Forecasting.ipynb` 📄: Jupyter notebook for BTC closing price forecasting.
-* `Khlong_Toei_PM2.5.csv` 💾: Sample data file for PM2.5 forecasting (or provide instructions on how to obtain it).
-* `BTC_price.csv` 💾: Sample data file for BTC price forecasting (or provide instructions on how to obtain it).
-* `/Pictures/` 🖼️: Folder containing result visualization images.
-* `README.md`: This file.
-
 ## Foundational Concepts 💡
 
 To better understand the context of this project, here are some foundational concepts related to time series forecasting and the models used:
@@ -37,6 +28,15 @@ To better understand the context of this project, here are some foundational con
 * **Concept:** Foundation models are large-scale models pre-trained on vast amounts of broad data (in this case, diverse time series data). They learn general patterns and representations from this data.
 * **Adaptability:** The key idea is that these pre-trained models can then be adapted to specific downstream tasks (like forecasting PM2.5 or BTC prices) with minimal task-specific training (**fine-tuning**) or even used directly without any further training (**zero-shot**).
 * **Lag-Llama as an Example:** Lag-Llama 🦙 applies this concept by using a Transformer-based architecture (specifically, Llama) adapted to take sequences of lagged values from time series as input. It aims to provide strong forecasting capabilities across various domains without needing extensive model retraining for each new dataset.
+
+## Repository Contents 📂
+
+* `Lag_Llama_PM2_5_Forecasting_for_Khlong_Toei_Station.ipynb` 📄: Jupyter notebook for PM2.5 forecasting.
+* `Lag-Llama_BTC_close_price_Forecasting.ipynb` 📄: Jupyter notebook for BTC closing price forecasting.
+* `Khlong_Toei_PM2.5.csv` 💾: Sample data file for PM2.5 forecasting (or provide instructions on how to obtain it).
+* `BTC_price.csv` 💾: Sample data file for BTC price forecasting (or provide instructions on how to obtain it).
+* `/Pictures/` 🖼️: Folder containing result visualization images.
+* `README.md`: This file.
 
 ## About the Model: Lag-Llama 🦙
 
