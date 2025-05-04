@@ -88,21 +88,22 @@ Below are sample visualizations comparing the actual data with the Zero-Shot and
 **PM2.5 Forecast Example (Context Length = 64)**
 *Note: This context length showed improvement with fine-tuning in the results table.*
 
-![PM2.5 Forecast Comparison (Context 64)]([./Pictures/PM_64.png](https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-/blob/main/Pictures/BTC%20128.png))
+<p align="center">
+  <img src="https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-/blob/main/Pictures/PM%2064.png?raw=true" alt="*PM2.5 Forecast Example (Context Length = 64)">
+</p>
 
 **BTC Price Forecast Example (Context Length = 128)**
 *Note: This context length showed significant improvement with fine-tuning in the results table.*
 <p align="center">
   <img src="https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-/blob/main/Pictures/BTC%20128.png?raw=true" alt="BTC Price Forecast Example (Context Length = 128)">
 </p>
-
 ***
 
 ## Setup & Installation
 
 1.  **Clone this repository:**
     ```bash
-    git clone [https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-.git]
+    git clone https://github.com/Sayomphon/Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-.git
     cd Lag-Llama-Time-Series-Forecasting-Examples-PM2.5-and-BTC-
     ```
 2.  **Data Files:** Ensure the necessary data files (`Khlong_Toei_PM2.5.csv`, `BTC_price.csv`) are placed in the root directory of this repository, or update the `csv_path` variable within the notebooks accordingly. The sample result images are located in the `/Pictures/` directory.
